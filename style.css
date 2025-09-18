@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #222;
+  color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #4a148c;
+}
+
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-left: 2px solid #4a148c;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 5px;
+}
