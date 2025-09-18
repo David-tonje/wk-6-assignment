@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Interactive Web Pages with JavaScript</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p id="clickMessage"></p>
+    <input type="text" id="hoverInput" placeholder="Hover over me!" />
+    <p id="hoverMessage"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Features</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="toggleModeBtn">Toggle Light/Dark Mode</button>
+
+    <!-- Counter Game -->
+    <div>
+      <p>Counter: <span id="counterValue">0</span></p>
+      <button id="incrementBtn">Increment</button>
+      <button id="decrementBtn">Decrement</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+      <button class="faq-question">What is JavaScript?</button>
+      <div class="faq-answer">JavaScript is a programming language for the web.</div>
+      <button class="faq-question">Why learn JavaScript?</button>
+      <div class="faq-answer">It makes web pages interactive and dynamic.</div>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="myForm">
+      <label>
+        Name: <input type="text" id="name" />
+        <span class="error" id="nameError"></span>
+      </label><br><br>
+      <label>
+        Email: <input type="text" id="email" />
+        <span class="error" id="emailError"></span>
+      </label><br><br>
+      <label>
+        Password: <input type="password" id="password" />
+        <span class="error" id="passwordError"></span>
+      </label><br><br>
+      <button type="submit">Submit</button>
+      <p id="formSuccess"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
