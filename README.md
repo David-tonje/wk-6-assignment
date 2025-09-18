@@ -79,4 +79,4 @@ interactive-webpage/
 ### Instructions
 1. **Download or clone** the project repository.  
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/David-tonje/wk-6-assignment/tree/main
